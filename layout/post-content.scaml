@@ -1,0 +1,24 @@
+- val dateFormat = org.joda.time.format.DateTimeFormat.forPattern("dd MMMM yyyy")
+-@ val linkToPost: Option[String] = None
+-@ val path: String = ""
+!!!html
+.post
+  %h1.title= title
+  #meta
+    .pubDate
+      %i(class="fa fa-calendar")
+      %span.date= dateFormat.print(pubDateTime)
+    .tail
+      - if (!tags.isEmpty)
+        %i(class="fa fa-tags")
+        - for (tag <- tags - "blog")
+          %span.tag= tag
+    .tail
+      %i(class="fa fa-pencil-square-o")
+      %span.author= "by Jem Mawson"
+  #copy.copy
+    - unescape(body)
+    - for (text <- linkToPost)
+      #read-more
+        %a(href={path})
+          = text
