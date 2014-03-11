@@ -1,7 +1,7 @@
 jQuery(function($){ 
   $.supersized({ 
     slides  :  	[ {
-      image : 'img/DSC04404.JPG', title : 'Garden Bhudda'
+      image : 'img/yoga-teacher-blackburn.JPG', title : 'Yoga Teacher Melbourne East'
     } ] ,
     vertical_center : 1
   }); 
