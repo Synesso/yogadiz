@@ -109,12 +109,13 @@ body {
 }
 a {
   text-decoration: none;
-  color: #EBBAEB;
+  color: #E999C3;
   -webkit-transition: border .25s linear;
   -moz-transition: border .25s linear;
   -ms-transition: border .25s linear;
   transition: border .25s linear;
   outline: none;
+  font-weight: bold;
 }
 h1 {
   margin-top: 0px;
@@ -215,5 +216,8 @@ code {
   font-style: italic;
   line-height: 30px;	
 }
-
-
+#main-text #logo {
+  position: relative;
+  top: -85px;
+  left: 125px;
+}
