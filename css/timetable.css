@@ -1,0 +1,48 @@
+@charset "UTF-8";
+div{border: 1px dotted grey}
+
+body {
+background-color: #EBE3E0;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+#branding {
+float:left;
+margin-left:15px;
+}
+#site-name{
+float:left;
+}
+#logo{
+float:left;
+}
+#links-list{
+float:right;
+}
+table
+{
+border-collapse:collapse;
+width:55%;
+}
+table, th, td {
+  margin-left: 20%;
+  border: 1px solid green;
+  height:50px;
+}
+th,td
+{
+padding:5px;
+width:80px;
+font-size:0.9em;
+}
+th
+{
+background-color:green;
+color:white;
+}
+#timetable tr.alt td {
+color: #000;
+background-color: #EAF2D3;
+}
+
