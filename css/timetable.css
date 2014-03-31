@@ -1,48 +1,112 @@
 @charset "UTF-8";
-div{border: 1px dotted grey}
+div {
+    border: 1px dotted grey
+}
 
 body {
-background-color: #EBE3E0;
-font-family: Verdana, Geneva, Arial, sans-serif;
-padding:0px;
-margin:0px;
-}
-#branding {
-float:left;
-margin-left:15px;
-}
-#site-name{
-float:left;
-}
-#logo{
-float:left;
-}
-#links-list{
-float:right;
-}
-table
-{
-border-collapse:collapse;
-width:55%;
-}
-table, th, td {
-  margin-left: 20%;
-  border: 1px solid green;
-  height:50px;
-}
-th,td
-{
-padding:5px;
-width:80px;
-font-size:0.9em;
-}
-th
-{
-background-color:green;
-color:white;
-}
-#timetable tr.alt td {
-color: #000;
-background-color: #EAF2D3;
+    background-color: #EBE3E0;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
+#primary {
+    height: 5.5em;
+    background-color: #EBE3E0;
+}
+
+#branding {
+    float: left;
+    margin-left: 15px;
+}
+
+#logo {
+    float: left;
+}
+
+#site-name {
+    float: right;
+    font: 1em 'Leckerli One', cursive;
+    color: #505050;
+    margin-left: 5px;
+}
+
+nav li {
+    float: right;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding: 3% 3% 2% 3%;
+    color: #505050;
+}
+
+.clear {
+    clear: both;
+}
+
+#art1 {
+    background-image: url('../img/bg-clouds.jpg');
+    background-size: cover;
+}
+
+article header {
+    font: 1em 'Leckerli One', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding: 3%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+}
+
+table, th, td {
+    margin: 0 auto 0;
+    border: 1px solid green;
+    height: 50px;
+}
+
+th, td {
+    padding: 5px;
+    width: 80px;
+    font-size: 0.9em;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+#timetable tr.alt td {
+    color: #000;
+    background-color: #EAF2D3;
+}
+#legend{
+    font-size: 0.8em;
+    margin-left: 15%;
+}
+#art2 {
+    float: left;
+    margin-left: 15%;
+    line-height: 2em;
+}
+
+figure {
+    float: right;
+}
+
+#legend li {
+    border: 1px solid;
+}
+#legend li:nth-child(1) {
+    background-color: green;
+}
+#legend li:nth-child(2) {
+    background-color: blue;
+}
+#legend li:nth-child(3) {
+    background-color: orange;
+}
