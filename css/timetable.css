@@ -1,7 +1,9 @@
 @charset "UTF-8";
+/*
 div {
     border: 1px dotted grey
 }
+*/
 
 body {
     background-color: #EBE3E0;
@@ -31,14 +33,17 @@ body {
     margin-left: 5px;
 }
 
-nav li {
+nav ul {
     float: right;
+    margin-top: 35px;
 }
 
-li {
-    display: inline;
+nav li {
     list-style-type: none;
-    padding: 3% 3% 2% 3%;
+    display: inline;
+    /*padding: 3% 1% 2% 3%;*/
+    margin-left: 20px;
+    margin-right: 40px;
     color: #505050;
 }
 
@@ -55,38 +60,89 @@ article header {
     font: 1em 'Leckerli One', cursive;
     font-size: 3em;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
 }
 
 table {
     border-collapse: collapse;
-    width: 55%;
+    width: 70%;
+    box-shadow: 8px 8px 4px #888888;
+
 }
 
 table, th, td {
     margin: 0 auto 0;
-    border: 1px solid green;
-    height: 50px;
+    border: 1px solid rgb(174, 179, 174);
+    height: 20px;
+    font-size: 0.8em;
+    border-spacing: 0;
 }
 
 th, td {
-    padding: 5px;
+    padding: 1em;
     width: 80px;
     font-size: 0.9em;
 }
 
 th {
-    background-color: green;
+    background-color: #1d7745;
     color: white;
+    font-size: 1.2em;
 }
 
 #timetable tr.alt td {
     color: #000;
     background-color: #EAF2D3;
 }
+.blue {
+    background-color:#51A5BA;
+    border: 0px;
+}
+.yellow {
+    background-color:#FE8402;
+ }
+.grey {
+    background-color:#8C8984;
+    border: 0px;
+}
+.cell1{
+    border-top-left-radius: 14px;
+}
+.cell2{
+    border-top-right-radius: 14px;
+}
+.cell3{
+    border-bottom-left-radius: 14px;
+}
+.cell4{
+    border-bottom-right-radius: 14px;
+}
+
+#legend ul {
+    display: inline-flex;
+}
+
+#legend li {
+    border:transparent;
+    padding: 0.5%;
+    color: rgb(26, 25, 25);
+    display: inline;
+    list-style-type: none;
+}
+
+#legend li:nth-child(1) {
+    background-color: #FE8402;
+}
+#legend li:nth-child(2) {
+    background-color:#51A5BA;
+}
+#legend li:nth-child(3) {
+    background-color: #8C8984;
+}
 #legend{
     font-size: 0.8em;
-    margin-left: 15%;
+    margin-top: 2%;
+    margin-left: 12%;
 }
 #art2 {
     float: left;
@@ -98,15 +154,4 @@ figure {
     float: right;
 }
 
-#legend li {
-    border: 1px solid;
-}
-#legend li:nth-child(1) {
-    background-color: green;
-}
-#legend li:nth-child(2) {
-    background-color: blue;
-}
-#legend li:nth-child(3) {
-    background-color: orange;
-}
+
