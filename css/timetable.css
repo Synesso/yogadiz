@@ -1,9 +1,4 @@
 @charset "UTF-8";
-/*
-div {
-    border: 1px dotted grey
-}
-*/
 
 body {
     background-color: #EBE3E0;
@@ -15,6 +10,7 @@ body {
 #primary {
     height: 5.5em;
     background-color: #EBE3E0;
+    border-bottom: 10px solid #f2f2f2;
 }
 
 #branding {
@@ -41,7 +37,6 @@ nav ul {
 nav li {
     list-style-type: none;
     display: inline;
-    /*padding: 3% 1% 2% 3%;*/
     margin-left: 20px;
     margin-right: 40px;
     color: #505050;
@@ -67,18 +62,19 @@ table {
     border-collapse: collapse;
     width: 70%;
     box-shadow: 8px 8px 4px #888888;
+    background-color: whitesmoke;
 
 }
 
 table, th, td {
     margin: 0 auto 0;
-    border: 1px solid rgb(174, 179, 174);
     height: 20px;
     font-size: 0.8em;
     border-spacing: 0;
 }
 
 th, td {
+    border: 1px solid rgb(174, 179, 174);
     padding: 1em;
     width: 80px;
     font-size: 0.9em;
@@ -96,26 +92,12 @@ th {
 }
 .blue {
     background-color:#51A5BA;
-    border: 0px;
 }
 .yellow {
     background-color:#FE8402;
  }
 .grey {
     background-color:#8C8984;
-    border: 0px;
-}
-.cell1{
-    border-top-left-radius: 14px;
-}
-.cell2{
-    border-top-right-radius: 14px;
-}
-.cell3{
-    border-bottom-left-radius: 14px;
-}
-.cell4{
-    border-bottom-right-radius: 14px;
 }
 
 #legend ul {
@@ -130,15 +112,6 @@ th {
     list-style-type: none;
 }
 
-#legend li:nth-child(1) {
-    background-color: #FE8402;
-}
-#legend li:nth-child(2) {
-    background-color:#51A5BA;
-}
-#legend li:nth-child(3) {
-    background-color: #8C8984;
-}
 #legend{
     font-size: 0.8em;
     margin-top: 2%;
