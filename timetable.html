@@ -2,8 +2,9 @@
 <head>
     <title>Yogadiz Timetable</title>
     <link href="css/timetable.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosario:400italic|Leckerli+One"
-          type="text/css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosario:400italic|Leckerli+One" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
 </head>
 <body>
 <header id="primary">
@@ -125,9 +126,12 @@
 <article id="art2">
     <header>Location</header>
         <section>
+        <div id="map_wrapper">
+            <div id="map_canvas" class="mapping"></div>
+        </div>
         <ul>
             <li>Yogadiz Home Studio: 15 Almer Ave Nunawading, VIC</li>
-            <li>Nunawading Aqualink: Fraser Pl, Forest Hill VIC  VIC</li>
+            <li>Nunawading Aqualink: Fraser Pl, Forest Hill VIC</li>
             <li>Koonung Cottage Community House: 109 Koonung Rd, Blackburn North VIC</li>
         </ul>
         </section>
