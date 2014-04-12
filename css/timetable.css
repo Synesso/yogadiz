@@ -138,10 +138,14 @@ th {
 
 #legend li {
     border:transparent;
-    padding: 0.5%;
+    padding: 5px 20px;
     color: rgb(26, 25, 25);
     display: inline;
     list-style-type: none;
+    margin: 0 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 #legend li:nth-child(1) {
