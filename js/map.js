@@ -25,9 +25,9 @@ function initialize() {
                         
     // Info Window Content
     var infoWindowContent = [
-        ['<div class="info_content"><h3>Yogadiz Home Studio</h3><p>A description.</p></div>'],
-        ['<div class="info_content"><h3>Nunawading Aqualink</h3><p>A description.</p></div>'],
-        ['<div class="info_content"><h3>Koonung Cottage Community House</h3><p>A description.</p></div>']
+        ['<div class="info_content"><h3>Yogadiz Home Studio</h3></div>'],
+        ['<div class="info_content"><h3>Nunawading Aqualink</h3></div>'],
+        ['<div class="info_content"><h3>Koonung Cottage Community House</h3></div>']
     ];
         
     // Display multiple markers on a map
@@ -49,7 +49,7 @@ function initialize() {
             return function() {
                 infoWindow.setContent(infoWindowContent[i][0]);
                 infoWindow.open(map, marker);
-                setTimeout(function(){ infoWindow.open(map, marker); }, 50); // prevents scrollbar
+                setTimeout(function(){ infoWindow.open(map, marker); }, 100); // prevents scrollbar
             }
         })(marker, i));
 
