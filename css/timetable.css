@@ -7,8 +7,8 @@ div {
 
 body {
     background-color: #EBE3E0;
-    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
-    /*font-family: Verdana, Geneva, Arial, sans-serif;*/
+    /*font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;*/
+    font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -49,6 +49,15 @@ nav li {
     color: #505050;
 }
 
+nav li a {
+    color: #444444;
+}
+
+.nav-current {
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+}
+
 .clear {
     clear: both;
 }
@@ -78,6 +87,7 @@ table, th, td {
     border: 1px solid rgb(174, 179, 174);
     height: 20px;
     font-size: 0.8em;
+    text-align: center;
     border-spacing: 0;
 }
 
@@ -88,24 +98,25 @@ th, td {
 }
 
 th {
-    background-color: #1d7745;
+    background-color: #454068;
     color: white;
     font-size: 1.2em;
 }
 
 #timetable tr.alt td {
     color: #000;
-    background-color: #EAF2D3;
+    /*background-color: #EAF2D3;*/
+    background-color: #443266;
 }
 .blue {
-    background-color:#51A5BA;
-    border: 0;
+    background-color:#4295AA;
+        border: 0;
 }
 .yellow {
-    background-color:#FE8402;
+    background-color:#D18D43;
  }
-.grey {
-    background-color:#8C8984;
+.green {
+    background-color:#809756;
     border: 0;
 }
 .cell1{
@@ -134,13 +145,13 @@ th {
 }
 
 #legend li:nth-child(1) {
-    background-color: #FE8402;
+    background-color: #D18D43;
 }
 #legend li:nth-child(2) {
-    background-color:#51A5BA;
+    background-color:#4295AA;
 }
 #legend li:nth-child(3) {
-    background-color: #8C8984;
+    background-color: #809756;
 }
 #legend{
     font-size: 0.8em;
