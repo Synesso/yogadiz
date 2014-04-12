@@ -1,177 +1,120 @@
 @charset "UTF-8";
-/*
-div {
-    border: 1px dotted grey
-}
-*/
-
 body {
-    background-color: #EBE3E0;
-    /*font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;*/
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    padding: 0;
-    margin: 0;
+  background-color: #EBE3E0;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  margin: 0;
 }
 
 #primary {
-    height: 6em;
-    background-color: #EBE3E0;
-    border-bottom: 10px solid #f2f2f2;
+  height: 6em;
+  border-bottom: 10px solid #f2f2f2;
 }
-
 #branding {
-    float: left;
-    margin-left: 15px;
+  float: left;
+  margin-left: 15px;
 }
-
 #logo {
-    float: left;
+  float: left;
 }
-
 #site-name {
-    float: right;
-    font: 1.2em 'Leckerli One', cursive;
-    color: #505050;
-    margin-left: 5px;
+  float: right;
+  font: 1.2em 'Leckerli One', cursive;
+  color: #505050; margin-left: 5px;
+}
+#art1 {
+  background-image: url('../img/bg-clouds.jpg'); 
+  background-size: cover; 
 }
 
 nav ul {
-    float: right;
-    margin-top: 35px;
+  float: right; 
+  margin-top: 35px;
 }
-
 nav li {
-    list-style-type: none;
-    display: inline;
-    /*padding: 3% 1% 2% 3%;*/
-    margin-left: 20px;
-    margin-right: 40px;
-    color: #505050;
+  list-style-type: none;
+  display: inline; margin-left: 20px;
+  margin-right: 40px;
 }
-
 nav li a {
-    color: #444444;
+  color: #444444;
 }
 
 .nav-current {
-    color: rgb(104, 104, 104);
-    font-weight: bold;
+  color: rgb(104, 104, 104);
+  font-weight: bold;
 }
-
 .clear {
-    clear: both;
-}
-
-#art1 {
-    background-image: url('../img/bg-clouds.jpg');
-    background-size: cover;
+  clear: both;
 }
 
 article header {
-    font: 1em 'Leckerli One', cursive;
-    font-size: 3em;
-    text-align: center;
-    padding: 2%;
+  font: 1em 'Leckerli One', cursive;
+  font-size: 3em;
+  text-align: center; 
+  padding: 2%;
 }
 
 table {
-    border-collapse: collapse;
-    width: 70%;
-    box-shadow: 8px 8px 4px #888888;
-    background: whitesmoke;
-
+  border-collapse: collapse;
+  width: 70%;
+  box-shadow: 8px 8px 4px #888888;
+  background: whitesmoke;
+  font-size: 0.8em;
 }
 
 table, th, td {
-    margin: 0 auto 0;
-    border: 1px solid rgb(174, 179, 174);
-    height: 20px;
-    font-size: 0.8em;
-    text-align: center;
-    border-spacing: 0;
+  margin: 0 auto 0;
+  border: 1px solid rgb(174, 179, 174);
+  text-align: center;
 }
 
 th, td {
-    padding: 1em;
-    width: 80px;
-    font-size: 0.9em;
+  padding: 1em;
+  width: 80px;
+  font-size: 0.9em;
 }
 
 th {
-    background-color: #454068;
-    color: white;
-    font-size: 1.2em;
+  background-color: #454068;
+  color: white;
+  font-size: 1.2em;
 }
 
-#timetable tr.alt td {
-    color: #000;
-    /*background-color: #EAF2D3;*/
-    background-color: #443266;
-}
 .blue {
-    background-color:#4295AA;
-        border: 0;
+  background-color:#4295AA;
 }
 .yellow {
-    background-color:#D18D43;
+  background-color:#D18D43;
  }
 .green {
-    background-color:#809756;
-    border: 0;
-}
-.cell1{
-    border-top-left-radius: 14px;
-}
-.cell2{
-    border-top-right-radius: 14px;
-}
-.cell3{
-    border-bottom-left-radius: 14px;
-}
-.cell4{
-    border-bottom-right-radius: 14px;
-}
-
-#legend ul {
-    display: inline-flex;
-}
-
-#legend li {
-    border:transparent;
-    padding: 5px 20px;
-    color: rgb(26, 25, 25);
-    display: inline;
-    list-style-type: none;
-    margin: 0 5px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-}
-
-#legend li:nth-child(1) {
-    background-color: #D18D43;
-}
-#legend li:nth-child(2) {
-    background-color:#4295AA;
-}
-#legend li:nth-child(3) {
-    background-color: #809756;
+  background-color:#809756;
 }
 #legend{
-    font-size: 0.8em;
-    margin-top: 2%;
-    margin-left: 12%;
+  font-size: 0.8em;
+  margin-top: 2%;
+  margin-left: 12%;
+}
+#legend ul {
+  display: inline-flex;
+}
+#legend li {
+  border:transparent;
+  padding: 5px 20px;
+  color: rgb(26, 25, 25);
+  display: inline;
+  list-style-type: none;
+  margin: 0 5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 #art2 {
-    float: left;
-    margin-left: 15%;
-    line-height: 2em;
+  float: left;
+  margin-left: 15%;
+  line-height: 2em;
 }
-
 figure {
-    float: right;
-    margin-right: 16%;
-    margin-top: 3%;
+  float: right;
+  margin-right: 16%;
+  margin-top: 3%;
 }
-
-
