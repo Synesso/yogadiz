@@ -221,3 +221,7 @@ code {
   top: -85px;
   left: 125px;
 }
+
+#logo img{
+    height: 65px;
+}

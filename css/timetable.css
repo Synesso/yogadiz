@@ -28,7 +28,7 @@ body {
 
 #site-name {
     float: right;
-    font: 1.2em 'Leckerli One', cursive;
+    font: 1em 'Leckerli One', cursive;
     color: #505050;
     margin-left: 5px;
 }
@@ -96,14 +96,14 @@ th {
 }
 .blue {
     background-color:#51A5BA;
-    /*border: 0px;*/
+    border: 0px;
 }
 .yellow {
     background-color:#FE8402;
  }
 .grey {
     background-color:#8C8984;
-    /*border: 0px;*/
+    border: 0px;
 }
 .cell1{
     border-top-left-radius: 14px;
