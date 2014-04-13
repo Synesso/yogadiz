@@ -112,16 +112,21 @@ th {
   float: left;
   margin-left: 15%;
 }
+
 #art2 ul {
-  line-height: 2em;
+    line-height: 2em;
+    padding: 0;
+    font-size: 0.9em;
+    list-style-image: url('../img/bullet-point-daisy.jpg');
 }
 figure {
   float: right;
-  margin-right: 16%;
+  margin-right: 10%;
   margin-top: 3%;
 }
 #map_wrapper {
-  height: 400px;
+    height: 300px;
+    width: 570px;
 }
 #map_canvas {
   width: 100%;

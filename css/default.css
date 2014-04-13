@@ -5,13 +5,35 @@ html, body {
   height: 100%;
 }
 a {
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #DFB9CD;
-  font-weight: bold;
-  background-color: rgba(0,0,0,0.5)
 }
 #supersized img {
   opacity: 0.7;
+}
+nav {
+    float: right;
+    /*font-family: 'Rosario', sans-serif;*/
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 25px 20px 0 auto;
+}
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+.nav-current {
+    /*background-color: azure;*/
+    color: lightgray;
+    font-weight: bold;
+}
+.clear {
+    clear: both;
 }
 #main-text {
   position: absolute;
