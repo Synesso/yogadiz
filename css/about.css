@@ -26,7 +26,14 @@ body {
     margin-left: 5px;
 }
 
-#art1 {
+#body {
+    margin: 0 auto;
+    width: 800px;
+    color: #444444;
+    background-size: cover;
+}
+
+.cloudy {
     background-image: url('../img/bg-clouds.jpg');
     background-size: cover;
 }
@@ -56,12 +63,16 @@ nav li a {
     clear: both;
 }
 
+article {
+    background-color: white;
+    padding: 0 20px 20px 20px;
+}
+
 article header {
     font: 1em 'Leckerli One', cursive;
     font-size: 3em;
     text-align: center;
     padding: 2%;
-    color: black;
 }
 
 table {
@@ -122,6 +133,11 @@ th {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+}
+
+#about img {
+    border-radius: 175px;
+    float: right;
 }
 
 #art2 {
