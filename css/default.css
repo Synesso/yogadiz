@@ -1,52 +1,79 @@
 @charset "UTF-8";
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
 a {
-  text-decoration: none;
-  color: #DFB9CD;
-  font-weight: bold;
-  background-color: rgba(0,0,0,0.5)
+    text-decoration: none;
+    color: #DFB9CD;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5)
 }
+
 #supersized img {
-  opacity: 0.7;
+    opacity: 0.7;
 }
+
 #main-text {
-  position: absolute;
-  left: 55%;
-  width: 35%;
-  top: 23%;
-  text-align: center;
-  color: white;
+    position: absolute;
+    left: 55%;
+    width: 35%;
+    top: 23%;
+    text-align: center;
+    color: white;
 }
+
 #title {
-  font: 72px 'Leckerli One', cursive;
+    font: 72px 'Leckerli One', cursive;
 }
+
 #quote {
-  font-family: 'Rosario', sans-serif;
-  font-size: 28px;
-  font-style: italic;
-  line-height: 42px;
+    font-family: 'Rosario', sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 42px;
 }
+
 #contact {
-  position: absolute;
-  left: 2%;
-  width: 23%;
-  top: 65%;
-  text-align: left;
-  color: white;
-  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
-  font-size: 15px;
-  font-style: italic;
-  line-height: 30px;	
+    position: absolute;
+    left: 2%;
+    width: 23%;
+    top: 65%;
+    text-align: left;
+    color: white;
+    font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 30px;
 }
+
 #logo {
-  position: relative;
-  top: -85px;
-  left: 125px;
+    position: relative;
+    top: -85px;
+    left: 125px;
 }
-#logo img{
+
+#logo img {
     height: 65px;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    color: #6c6c6c;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    background-color: black;
+}
+
+#footer a {
+    color: #6c6c6c;
+    font-weight: normal;
+    text-decoration: underline;
 }
